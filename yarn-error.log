@@ -1,0 +1,85 @@
+Arguments: 
+  /Users/shahzeb/.nvm/versions/node/v14.19.3/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/shahzeb/.nvm/versions/node/v14.19.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/shahzeb/.nvm/versions/node/v14.19.3/bin:/Users/shahzeb/Desktop/flutter/flutter/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.19.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/styled-cosmponents: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:400:28)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:400:28)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:519:28)
+      at IncomingMessage.emit (events.js:412:35)
+      at endReadableNT (internal/streams/readable.js:1333:12)
+      at processTicksAndRejections (internal/process/task_queues.js:82:21)
+
+npm manifest: 
+  {
+    "name": "my-app",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@testing-library/user-event": "^12.1.10",
+      "framer-motion": "^7.2.1",
+      "react": "^17.0.2",
+      "axios": "^0.27.2",
+  
+      "react-alice-carousel": "^2.6.4",
+      "react-dom": "^17.0.2",
+          "react-icons": "^4.4.0",
+          "react-redux": "^7.2.5",
+          "react-scripts": "4.0.3",
+          "react-scroll": "^1.8.7",
+      "styled-cosmponents": "^5.3.5",
+      "react-router-dom": "^6.3.0",
+      "web-vitals": "^1.0.1",
+  
+      "use-wallet": "^0.13.6",
+      "web3": "^1.7.5"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -19,8 +19,8 @@ function App() {
 
       <Airdrop
         nftContractAddress={"0x4ec9272f3ce3c58caf19f85be43299126a787a6c"}
-        claimContractAddress={"0xbE5FAC12550196433BedD05DE52A2a0ce12a04Cc"}
-        claimTokenName={"ALPHAGOLD"}
+        claimContractAddress={"0xdC68A63A4c4e6C3eEeD2c59101753bf8A2023D92"}
+        claimTokenName={"CYPHER"}
       />
       <Map />
       <Comment />
